@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo Ricardo Gouvea dos Santos</title>
+</head>
+<style>
+    body {
+        color: #f0f0f0;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(90deg, rgba(177, 64, 200, 1) 0%,
+                rgba(109, 9, 121, 1) 35%, rgba(45, 1, 62, 1) 100%);
+    }
+
+    #header {
+        background-image: url(header.png);
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #main-content {
+        padding: 15px;
+    }
+
+    #player {
+        text-align: center;
+    }
+
+    .glow {
+        font-size: 70px;
+        color: #ffffff;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    .glow1 {
+        font-size: 50px;
+        color: #ffffff;
+        text-align: left;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    border-style {
+        background: linear-gradient(90deg, rgba(177, 64, 200, 1) 0%,
+                rgba(109, 9, 121, 1) 35%, rgba(45, 1, 62, 1) 100%);
+    }
+
+    @keyframes glow {
+        from {
+            text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+        }
+
+        to {
+            text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+                0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    }
+
+    #img{
+        text-align: center;
+    }
+
+    #bottom{
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div id="header">
+        <h1 class="glow">HTML 5</h1>
+    </div>
+    <div id="img">
+        <img style="padding: 15px;" src="logo.png" alt="">
+    </div>
+    <div id="main-content">
+        <h2 class="glow1">O que é HTML5?</h2>
+        <p>O HTML5 (HyperText Markup Language 5) é a quinta versão da linguagem de marcação usada para criar páginas da
+            web. Foi desenvolvido para melhorar a estrutura e a funcionalidade das páginas da web, tornando-as mais
+            compatíveis com dispositivos e navegadores modernos. Aqui estão 20 pontos-chave sobre o HTML5:</p>
+        <ul>
+            <li>Semântica: O HTML5 introduz novas tags semânticas como (header), (nav), (article), e (footer), que
+                facilitam a estruturação de conteúdo web de forma mais significativa.</li>
+            <li>Áudio e Vídeo: O HTML5 suporta elementos de áudio e vídeo nativos, reduzindo a necessidade de plugins
+                como o Flash.</li>
+            <li>Canvas: O elemento (canvas) permite a criação de gráficos e animações interativas diretamente no
+                navegador.</li>
+            <li>Geolocalização: O HTML5 permite que sites obtenham informações de localização do usuário, tornando
+                possíveis aplicativos baseados em localização.</li>
+            <li>Armazenamento Local: O HTML5 introduz recursos de armazenamento local, como localStorage e
+                sessionStorage, para armazenar dados no navegador.</li>
+            <li>Web Workers: A capacidade de executar scripts em segundo plano com Web Workers ajuda a melhorar o
+                desempenho e a responsividade das aplicações web.</li>
+            <li>Compatibilidade: HTML5 é amplamente suportado por navegadores modernos, tornando as páginas mais
+                consistentes em diferentes plataformas.</li>
+            <li>Markup Simplificado: O HTML5 oferece uma sintaxe mais limpa e simplificada em comparação com versões
+                anteriores.</li>
+            <li>Melhor Acessibilidade: As tags semânticas ajudam a melhorar a acessibilidade da web para pessoas com
+                deficiências.</li>
+            <li>Integração com CSS3: O HTML5 trabalha em conjunto com o CSS3 para criar designs web mais atraentes.</li>
+            <li>Formulários Aprimorados: Novos tipos de entrada, validações e atributos facilitam a criação de
+                formulários mais poderosos.</li>
+            <li>Suporte a Gráficos Vetoriais: O elemento (svg) permite a inclusão de gráficos vetoriais escaláveis
+                diretamente nas páginas web.</li>
+            <li>Offline Web Apps: Com o uso de Service Workers e Cache API, as aplicações web podem funcionar offline.
+            </li>
+            <li>Cross-Document Messaging: Permite que diferentes janelas ou frames comuniquem entre si.</li>
+            <li>Drag and Drop: O HTML5 oferece suporte nativo para operações de arrastar e soltar elementos na página.
+            </li>
+            <li>Compatibilidade com Mídia: O HTML5 torna mais fácil incorporar conteúdo de áudio e vídeo em páginas da
+                web.</li>
+            <li>API de Histórico: A API de histórico facilita a manipulação do histórico do navegador sem recarregar a
+                página.</li>
+            <li>Melhor Desempenho: O HTML5 ajuda a melhorar o desempenho das páginas da web, reduzindo a dependência de
+                recursos externos.</li>
+            <li>WebSockets: Permite comunicação bidirecional em tempo real entre o navegador e o servidor.</li>
+            <li>Evolução Constante: O HTML5 continua a ser desenvolvido e aprimorado, com novos recursos sendo
+                adicionados regularmente para atender às demandas da web moderna.</li>
+        </ul>
+    </div>
+    <div id="img">
+        <img src="code.jpg" alt="" height="350px" width="700px">
+    </div>
+    <div id="bottom">
+        <a class="glow1" href="pag2.html">Meu Curriculum</a>
+    </div>
+</body>
+
+</html>
